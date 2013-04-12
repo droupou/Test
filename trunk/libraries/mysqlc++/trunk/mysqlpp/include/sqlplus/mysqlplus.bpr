@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.05.03"/>
+    <PROJECT value="debug\mysqlplus.lib"/>
+    <OBJFILES value="coldata.obj connection.obj datetime.obj field_names.obj field_types.obj 
+      manip.obj query.obj result.obj set.obj sql_query.obj string_util.obj 
+      type_info.obj vallist.obj"/>
+    <RESFILES value=""/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES)"/>
+    <LIBFILES value="..\..\lib\deb\libmysql.lib"/>
+    <LIBRARIES value=""/>
+    <PACKAGES value=""/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <LINKER value="TLib"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="mysqlplus.bpf"/>
+    <INCLUDEPATH value="$(BCB)\include;..\..\include\mysql"/>
+    <LIBPATH value="$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <LISTFILE value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\include -I..\..\include\mysql -src_suffix cpp -D_DEBUG -no_tie -boa"/>
+    <CFLAG1 value="-Od -Vx -Ve -X- -r- -a8 -5 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -v -JPHNE -M"/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-l&quot;D:\cpp\win\src\sqlplus_1_7_1\debug\&quot; /P256"/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="$(OBJFILES)"/>
+    <ALLLIB value=""/>
+  </LINKER>
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1062
+CodePage=1257
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=4
+Item0=$(BCB)\include;..\..\include\mysql
+Item1=$(BCB)\include;C:\cpp\include\mysql
+Item2=$(BCB)\include
+Item3=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=1
+Item0=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlFinalOutputDir]
+Count=6
+Item0=debug\
+Item1=..\..\lib\deb\
+Item2=..\..\lib\deb
+Item3=release\
+Item4=C:\cpp\src\sqlplus\release
+Item5=C:\cpp\src\sqlplus\debug\
+
+[HistoryLists\hIBPIOutputDir]
+Count=8
+Item0=D:\cpp\win\src\sqlplus_1_7_1\debug\
+Item1=debug\
+Item2=C:\cpp\src\sqlplus\debug\
+Item3=C:\cpp\mysql++_v1.7_win32_borland_v1.1\lib\deb\
+Item4=..\..\lib\deb
+Item5=C:\cpp\src\sqlplus\release\
+Item6=C:\cpp\src\sqlplus\release
+Item7=debug
+
+[HistoryLists\hlTlibPageSize]
+Count=2
+Item0=0x0100
+Item1=0x0010
+
+[Debugging]
+DebugSourceDirs=
+
+[Parameters]
+RunParams=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=0
+AddClientUnit=0
+PrecompiledHeaders=0
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
