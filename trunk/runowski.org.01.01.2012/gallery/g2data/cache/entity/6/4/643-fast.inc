@@ -1,0 +1,1 @@
+<?php function GalleryFastDownload() { return $GLOBALS['gallery']->fastDownload('cache/derivative/6/4/643.dat', 'Slay Dragon.JPG', 'Mon, 02 Jun 2008 18:26:41 GMT', 'image/jpeg', 54540);} ?>

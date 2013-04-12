@@ -1,0 +1,29 @@
+<project name="HashFunction" default="dist" basedir=".">
+     <description> An attempt to create an Ant file</description>
+
+     <property name="src" value="."/>
+     <property name="build" value="${src}\build"/>
+     <property name="dist" value="${src}\dist"/>
+
+     <target name="clean">
+	  <delete dir="${build}"/>
+	  <delete dir="${dist}"/>
+     </target>
+
+     <target name="init" depends="clean">
+          <mkdir dir="${build}"/>
+	  <mkdir dir="${dist}"/>
+     </target>
+
+     <target name="compile" depends="init"> 
+          <!-- Compile the java code -->
+          <tstamp/>
+	  <javac srcdir="${src}" destdir="${build}" debug="true" listfiles="yes" />
+     </target>
+
+     <target name="dist" depends="compile">
+	  <jar destfile="${dist}/HashFunction.jar" basedir="${build}" manifest="${src}\manifest.mf"/>
+     </target>
+
+</project>
+

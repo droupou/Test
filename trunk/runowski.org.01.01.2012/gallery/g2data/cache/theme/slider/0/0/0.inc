@@ -1,0 +1,1 @@
+|a:5:{s:14:"enableImageMap";s:1:"0";s:13:"sidebarBlocks";s:137:"a:2:{i:0;a:2:{i:0;s:18:"search.SearchBlock";i:1;a:1:{s:16:"showAdvancedLink";b:1;}}i:1;a:2:{i:0;s:21:"imageblock.ImageBlock";i:1;a:0:{}}}";s:16:"_requiredCoreApi";s:3:"7,4";s:17:"_requiredThemeApi";s:3:"2,5";s:8:"_version";s:7:"1.0.7.2";}

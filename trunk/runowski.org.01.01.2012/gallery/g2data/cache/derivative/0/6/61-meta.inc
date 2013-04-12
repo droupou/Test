@@ -1,0 +1,1 @@
+|a:5:{s:14:"derivativePath";s:75:"/home/content/d/r/o/droupou/html/gallery/g2data/cache/derivative/0/6/61.dat";s:14:"derivativeType";i:1;s:8:"mimeType";s:10:"image/jpeg";s:8:"parentId";i:60;s:14:"pseudoFileName";s:8:"new5.jpg";}

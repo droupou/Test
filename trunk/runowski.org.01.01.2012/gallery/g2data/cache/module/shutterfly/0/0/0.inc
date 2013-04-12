@@ -1,0 +1,1 @@
+|a:4:{s:8:"_version";s:7:"1.0.7.2";s:10:"_callbacks";s:12:"getItemLinks";s:16:"_requiredCoreApi";s:4:"7,12";s:18:"_requiredModuleApi";s:3:"3,3";}
