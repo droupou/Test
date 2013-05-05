@@ -1,0 +1,34 @@
+CR: 7
+Hit Dice: 9d1+27
+Initiative: +1
+AC: 16
+Weapons: Bite +12 melee 2d6+4, bite +10 melee 1d8+2, butt +10 melee 1d8+2, 2 claws +10 melee 1d6+2
+Special Abilities: Breath weapon
+Special Qualities: Scent
+Saves: Fort +9, Ref +7, Will +4
+Skills: hide +4, LIsten +9, Spot +9
+Feats: Alertness, Multiattack
+Number: 1 - 13
+NOTES:
+	Description:   A chimerea has the hindquarters of a large black goat and the forequarters 
+		of a great lion.  It has brownish-black dragon wings and the heads of a goat, a 
+		lion, and a fierce dragon.  The pitch-black goat head has glowing amber eyes and 
+		long ochre hornes.  The maneless lion head has green eyes.  The scaly dragon head 
+		has black eyes, and the scales might be black, blue, green, red, or white.  The 
+		creature is about 5 feet tall at the shoulder, nearly 10 feet long, and weighs 
+		about 4,000 pounds.
+	Chimeras can speak Draconic but seldom bother to do so, exept when toadying to more 
+		powerful creatures.
+	Breath Weapon (SU):  Every 1d4 rounds, damage 3d8, Reflex half DC 17.  Use all reules for 
+		dragon breath of the appropriate variety (See the Dragon entyr)  except as specified 
+		in the table below.  To dertimine the head color and breath weapon randomly, roll 
+		1d10 and consult the table.
+			1d10		Head Color		Breath Weapon
+			1 - 2		Black			Line of acid*
+			3 - 4		Blue			Line of lightning
+			5 - 6		Green			Cone of gas**
+			7 - 8		Red			Cone of fire
+			9 - 10		White 			Cone of cold
+			*A line is always 5 feet high, 5 feet wide, and 40 feet long
+			**A cone is always 20 feet long.
+	Skills:  The chimera's three heads give it a +2 racial bonus to spot and Listen checks.

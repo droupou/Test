@@ -1,0 +1,1 @@
+clear; g++ -Wno-deprecated main.cpp -o HomeAccountant -L/usr/lib -lpq `wx-config --libs` `wx-config --cxxflags`

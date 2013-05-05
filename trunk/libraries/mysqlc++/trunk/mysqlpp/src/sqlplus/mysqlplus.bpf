@@ -1,0 +1,23 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+USELIB("libmySQL.lib");
+USEUNIT("coldata.cpp");
+USEUNIT("connection.cpp");
+USEUNIT("datetime.cpp");
+USEUNIT("field_names.cpp");
+USEUNIT("field_types.cpp");
+USEUNIT("manip.cpp");
+USEUNIT("query.cpp");
+USEUNIT("result.cpp");
+USEUNIT("set.cpp");
+USEUNIT("sql_query.cpp");
+USEUNIT("string_util.cpp");
+USEUNIT("type_info.cpp");
+USEUNIT("vallist.cpp");
+//---------------------------------------------------------------------------
+#define Library
+
+// To add a file to the library use the Project menu 'Add to Project'.
+

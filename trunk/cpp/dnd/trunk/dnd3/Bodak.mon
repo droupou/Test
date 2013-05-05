@@ -1,0 +1,20 @@
+CR: 8
+Hit Dice: 9d12+0
+Initiative: +6
+AC: 15
+Weapons: Slam +6 Melee (1d8+1)
+Special Abilities: Death gaze
+Special Qualities: Damage reduction 15/silver, fire and acid resistance 20, 
+			electricity immunity, sunlight vulnerability, flashbacks
+Saves: Fort +3, Ref +5, Will +7
+Skills: Listen +11, Move Silently +14, Spot +13
+Feats: Dodge, Improved Initiative, Weapon Focus (slam)
+Number: 2 - 4
+NOTES:
+	Death Gaze:  Death, range 30 feet, fortitude negates (DC 15).  Humanoids who 
+		die from this attack are transformed into bodaks in one day.
+	Sunlight Vulnerability:  The touch of sunlight burns their flesh.  1 pt of 
+		damage per round.
+	Flashbacks:  5% chance of remembering something at the beginning of encounter.  
+		If so bodak takes no action for 1 round.  Suffers a -2 morale penalty 
+		to all attacks directed at that opponent thereafter.

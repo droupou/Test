@@ -1,0 +1,1 @@
+<?php function GalleryFastDownload() { return $GLOBALS['gallery']->fastDownload('albums/EverGreen07/Christmas/IMG_1091.JPG', 'IMG_1091.JPG', 'Wed, 30 Jan 2008 14:33:24 GMT', 'image/jpeg', 3275387);} ?>

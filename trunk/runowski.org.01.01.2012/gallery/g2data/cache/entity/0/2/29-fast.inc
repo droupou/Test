@@ -1,0 +1,1 @@
+<?php function GalleryFastDownload() { return $GLOBALS['gallery']->fastDownload('albums/RenFraire/King_Henry_sized.jpg', 'King_Henry_sized.jpg', 'Fri, 11 Jan 2008 14:30:08 GMT', 'image/jpeg', 86195);} ?>

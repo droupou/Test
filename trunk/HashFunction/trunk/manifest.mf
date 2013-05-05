@@ -1,0 +1,3 @@
+Manifest_Version: 1.0
+Classpath: .\HashFunction.jar
+Main-Class: HashIt

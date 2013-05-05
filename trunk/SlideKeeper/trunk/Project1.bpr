@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Project1.exe"/>
+    <OBJFILES value="Project1.obj Unit1.obj Unit2.obj Unit3.obj Unit4.obj Unit5.obj Unit6.obj 
+      Unit7.obj Unit8.obj Unit9.obj Unit10.obj Unit12.obj Unit11.obj Unit13.obj 
+      Unit14.obj EditUser.obj EditPeriodDate.obj EditMaterial.obj"/>
+    <RESFILES value="Project1.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Unit1.dfm Unit2.dfm Unit3.dfm Unit4.dfm Unit5.dfm Unit6.dfm 
+      Unit7.dfm Unit8.dfm Unit9.dfm Unit10.dfm Unit12.dfm Unit11.dfm Unit13.dfm 
+      Unit14.dfm EditUser.dfm EditPeriodDate.dfm EditMaterial.dfm"/>
+    <LIBFILES value="&quot;C:\Program Files\Borland\CBuilder6\Lib\REL\LIBMYSQL.LIB&quot;"/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="vcl.lib rtl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi bcbsmp.bpi dclocx.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="Project1.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;&quot;C:\Source Code\SlideKeeper&quot;;$(BCB)\include;$(BCB)\include\vcl;&quot;C:\Program Files\MySQL\MySQL Server 4.1\include&quot;;&quot;C:\Program Files\MySQL\MySQL Server 4.1\include\mysql&quot;"/>
+    <LIBPATH value="&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;&quot;C:\Source Code\SlideKeeper&quot;;$(BCB)\lib\obj;$(BCB)\lib;&quot;C:\Source Code\SlideKeeper\trunk&quot;;&quot;C:\Program Files\MySQL\MySQL Server 4.1\lib&quot;"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -w -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- 
+      -c -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -w -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Project1.res" FORMNAME="" UNITNAME="Project1.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Project1.cpp" FORMNAME="" UNITNAME="Project1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit1.cpp" FORMNAME="frmMain" UNITNAME="Unit1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit2.cpp" FORMNAME="FrmNewRec" UNITNAME="Unit2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit3.cpp" FORMNAME="frmAbout" UNITNAME="Unit3" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit4.cpp" FORMNAME="FindFrm" UNITNAME="Unit4" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit5.cpp" FORMNAME="DataModule5" UNITNAME="Unit5" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit6.cpp" FORMNAME="OutputFrm" UNITNAME="Unit6" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="C:\Program Files\Borland\CBuilder6\Lib\REL\LIBMYSQL.LIB" FORMNAME="" UNITNAME="LIBMYSQL.LIB" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit7.cpp" FORMNAME="Frame7" UNITNAME="Unit7" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit8.cpp" FORMNAME="NewUserFrm" UNITNAME="Unit8" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit9.cpp" FORMNAME="AddPeriodFrm" UNITNAME="Unit9" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit10.cpp" FORMNAME="AddMatFrm" UNITNAME="Unit10" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit12.cpp" FORMNAME="MsgBox" UNITNAME="Unit12" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit11.cpp" FORMNAME="Printview_frm" UNITNAME="Unit11" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit13.cpp" FORMNAME="Frame13" UNITNAME="Unit13" CONTAINERID="CCompiler" DESIGNCLASS="TFrame" LOCALCOMMAND=""/>
+      <FILE FILENAME="Unit14.cpp" FORMNAME="UpdForm" UNITNAME="Unit14" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="EditUser.cpp" FORMNAME="EditUserFrm" UNITNAME="EditUser" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="EditPeriodDate.cpp" FORMNAME="EditPDateFrm" UNITNAME="EditPeriodDate" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="EditMaterial.cpp" FORMNAME="EditMaterialFrm" UNITNAME="EditMaterial" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="sqlConnection.h" FORMNAME="" UNITNAME="sqlConnection.h" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=2
+MinorVer=0
+Release=1
+Build=1
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1033
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=Rick Runowski
+FileDescription=Slide Keeper
+FileVersion=2.0.1.1
+InternalName=SlideKeeper
+LegalCopyright=Rick Runowski
+LegalTrademarks=
+OriginalFilename=
+ProductName=Slide Keeper
+ProductVersion=2.0.0.0
+Comments=SlideKeeper was created for Oklahoma State University by Rick Runowski.
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Bin\dcl31w60.bpl=Delphi 1.0 Compatibility Components
+
+[HistoryLists\hlIncludePath]
+Count=5
+Item0=C:\Program Files\Borland\CBuilder6\Projects;C:\Source Code\SlideKeeper;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\MySQL\MySQL Server 4.1\include;C:\Program Files\MySQL\MySQL Server 4.1\include\mysql
+Item1=C:\Program Files\Borland\CBuilder6\Projects;C:\Source Code\SlideKeeper;$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\MySQL\MySQL Server 4.1\include
+Item2=C:\Program Files\Borland\CBuilder6\Projects;C:\Source Code\SlideKeeper;$(BCB)\include;$(BCB)\include\vcl;C:\Source Code\libraries\mysqlc++\trunk\mysqlpp\include
+Item3=C:\Program Files\Borland\CBuilder6\Projects;C:\Source Code\SlideKeeper;$(BCB)\include;$(BCB)\include\vcl;C:\SQLAPI\include
+Item4=C:\Program Files\Borland\CBuilder6\Projects;C:\Source Code\SlideKeeper-Borland-2;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=7
+Item0=C:\Program Files\Borland\CBuilder6\Projects;C:\Source Code\SlideKeeper;$(BCB)\lib\obj;$(BCB)\lib;C:\Source Code\SlideKeeper\trunk;C:\Program Files\MySQL\MySQL Server 4.1\lib
+Item1=C:\Program Files\Borland\CBuilder6\Projects;C:\Source Code\SlideKeeper;$(BCB)\lib\obj;$(BCB)\lib;C:\Source Code\SlideKeeper\trunk;C:\Source Code\libraries\mysqlc++\trunk\mysqlpp\lib\rel
+Item2=C:\Program Files\Borland\CBuilder6\Projects;C:\Source Code\SlideKeeper;$(BCB)\lib\obj;$(BCB)\lib;C:\Source Code\SlideKeeper\trunk
+Item3=C:\Program Files\Borland\CBuilder6\Projects;C:\Source Code\SlideKeeper;$(BCB)\lib\obj;$(BCB)\lib
+Item4=C:\Program Files\Borland\CBuilder6\Projects;C:\Source Code\SlideKeeper;$(BCB)\lib\obj;$(BCB)\lib;C:\SQLAPI\lib;C:\Program Files\MySQL\MySQL Server 4.1\lib\opt
+Item5=C:\Program Files\Borland\CBuilder6\Projects;C:\Source Code\SlideKeeper;$(BCB)\lib\obj;$(BCB)\lib;C:\SQLAPI\lib
+Item6=C:\Program Files\Borland\CBuilder6\Projects;C:\Source Code\SlideKeeper-Borland-2;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+  </IDEOPTIONS>
+</PROJECT>

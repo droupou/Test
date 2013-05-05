@@ -1,0 +1,31 @@
+CR: 7
+Hit Dice: 11d8+44
+Initiative: +7
+AC: 22
+Weapons: 2Claws +12 melee 2d6+5
+Special Abilities: Improved grab, squeeze, paralysis
+Special Qualities: Paralysis and poison immunity
+Saves: Fort +7, Ref +6, Will +9
+Skills: Hide +13, Jump +11, Listen +13, Spot +13
+Feats: Alertness, Improved Initiative
+Number: 1 - 5
+Description:  A horrible mix of crustacean, insect, and serpent, the chuul is an 
+		abomination that lurks submerged or partially submerged, awaiting 
+		intelligent prey to devour.  A chuul has huge pincerlike claws, 
+		four webbed legs, a wide tail, and a mandibled mouth surrounded 
+		by squirming tentacles.  Its entire body is encased in an orange 
+		and black carapace.
+NOTES:
+	It normally will grab and crush opponents one at a time in an effort to knock 
+		out or kill them all.
+	Improved Grab (Ex):  To use this ability, the chuul must hit with a claw attack.
+	Squeeze (Ex):  A chuul that gets a hold automatically deals claw damage, with an 
+		additional 1d6 points of bludgeoning damage from the crushing force, each 
+		round the hold is maintatined.
+	Paralysis (Ex):  The chuul can transfer grabbed victims from a claw to 
+		its tentacles as a partial action.   The tentacles grapple ;with 
+		the same strenght as the claw but deal no damage.  However, they 
+		exude a paralytic secretion.  Those held in the tentacles must succeed 
+		at a frotit8ude save (DC 19) or be paralyzed for 6 rounds.  While held 
+		in the tentacles, paralyzed or not, the victim automatically takes 
+		1D8+2 points of damage each round from the crature's mandibles.

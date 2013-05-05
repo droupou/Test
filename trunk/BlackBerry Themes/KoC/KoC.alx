@@ -1,0 +1,14 @@
+<loader version="2008.11.18.1651">
+ <application id="KoC" _blackberryVersion="[4.2.1,)">
+  <name>KoC</name>
+  <description></description>
+  <version>2008.11.18.1651</version>
+  <vendor>Plazmic Inc.</vendor>
+  <copyright>Rick Runowski 2008</copyright>
+  <fileset Java="1.0">
+   <files>
+    com_plazmic_theme_KoC.cod
+   </files>
+  </fileset>
+ </application>
+</loader>

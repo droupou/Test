@@ -1,0 +1,29 @@
+# List of source files containing translatable strings.
+
+## Created by Anjuta - will be overwritten
+## If you don't want it to overwrite it,
+## 	Please disable it in the Anjuta project configuration
+
+# Source files
+src/main.cc
+src/SFEmployee.cpp
+src/pp
+src/SFCreditCard.cpp
+src/SFCreditCard.hpp
+src/SFEmployee.hpp
+src/SFInventory.hpp
+src/SFPermissions.hpp
+src/SFProduct.hpp
+src/SFReturns.hpp
+src/SFCustomer.cpp
+src/SFPermissions.cpp
+src/SFInventory.cpp
+src/SFReturns.cpp
+src/SFCustomer.hpp
+src/MainForm.cpp
+src/MainForm.hpp
+src/SFFind.cpp
+src/SFFind.hpp
+src/SFPgsql.hpp
+
+

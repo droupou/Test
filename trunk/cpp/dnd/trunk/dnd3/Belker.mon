@@ -1,0 +1,17 @@
+CR: 6
+Hit Dice: 7d8+7
+Initiative: +5
+AC: 22
+Weapons: 2 Wings +9 melee (1d6+2), bite +4 melee (1d4+1), 2 claws +4 melee (1d3+1)
+Special Abilities: Smoke Claws
+Special Qualities: Smoke Form
+Saves: Fort +4, Ref +10, Will +2
+Skills: Listen +9, Move Silently +9, Spot +9, 
+Feats: Multiattack, Weapon Finess (wing)
+Number: 2 - 4
+NOTES:
+	Smoke Claws -- Smoke deals 3d4 points of tear damage to victums internals.
+		SAVE DC 14
+		FORTITUDE roll each round to cough it out.
+	Smoke Form -- Gaseous form at 7th level
+		decides each round up to 20 rounds per day.
